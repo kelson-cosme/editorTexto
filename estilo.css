@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#corpo{
+    margin: auto;
+    max-width: 800px;
+    height:500px;
+    border: 1px solid black;
+}
+header{
+    width: 100%;
+    background-color: burlywood;
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+}
+header li{
+    width: 3%;
+    height: 3%;
+    margin: 2px 10px 0 10px;
+}
+header img{
+    width: 100%;
+}
+.field{
+    width:calc(100% - 20px) ;
+    height:calc(94% - 21px) ;
+    border: none;
+    padding: 10px;
+}
